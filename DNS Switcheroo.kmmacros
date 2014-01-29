@@ -86,6 +86,7 @@
 								<string></string>
 								<key>Text</key>
 								<string>echo %password% | sudo -S networksetup -setdnsservers Wi-Fi 8.8.8.8 8.8.4.4</string>
+								<string>echo "yourpassword" | sudo -S networksetup -setdnsservers Wi-Fi 8.8.8.8 8.8.4.4</string>
 								<key>TimeOutAbortsMacro</key>
 								<true/>
 								<key>TrimResults</key>
@@ -117,6 +118,7 @@
 								<string></string>
 								<key>Text</key>
 								<string>echo %password% | sudo -S networksetup -setdnsservers Wi-Fi empty</string>
+								<string>echo "yourpassword" | sudo -S networksetup -setdnsservers Wi-Fi empty</string>
 								<key>TimeOutAbortsMacro</key>
 								<true/>
 								<key>TrimResults</key>
