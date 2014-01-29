@@ -13,22 +13,6 @@
 				<key>Actions</key>
 				<array>
 					<dict>
-						<key>IsActive</key>
-						<true/>
-						<key>IsDisclosed</key>
-						<true/>
-						<key>MacroActionType</key>
-						<string>SetVariableToKeychainPassword</string>
-						<key>PasswordAccount</key>
-						<string>%UserLoginID%</string>
-						<key>PasswordName</key>
-						<string>Password Name</string>
-						<key>TimeOutAbortsMacro</key>
-						<true/>
-						<key>Variable</key>
-						<string>password</string>
-					</dict>
-					<dict>
 						<key>DisplayKind</key>
 						<string>Variable</string>
 						<key>IsActive</key>
@@ -44,9 +28,9 @@
 						<key>TimeOutAbortsMacro</key>
 						<true/>
 						<key>TrimResults</key>
-						<false/>
+						<true/>
 						<key>TrimResultsNew</key>
-						<false/>
+						<true/>
 						<key>UseText</key>
 						<true/>
 						<key>Variable</key>
@@ -85,7 +69,6 @@
 								<key>Path</key>
 								<string></string>
 								<key>Text</key>
-								<string>echo %password% | sudo -S networksetup -setdnsservers Wi-Fi 8.8.8.8 8.8.4.4</string>
 								<string>echo "yourpassword" | sudo -S networksetup -setdnsservers Wi-Fi 8.8.8.8 8.8.4.4</string>
 								<key>TimeOutAbortsMacro</key>
 								<true/>
@@ -117,7 +100,6 @@
 								<key>Path</key>
 								<string></string>
 								<key>Text</key>
-								<string>echo %password% | sudo -S networksetup -setdnsservers Wi-Fi empty</string>
 								<string>echo "yourpassword" | sudo -S networksetup -setdnsservers Wi-Fi empty</string>
 								<key>TimeOutAbortsMacro</key>
 								<true/>
@@ -605,7 +587,7 @@
 				<key>IsActive</key>
 				<true/>
 				<key>ModificationDate</key>
-				<real>412693754.269243</real>
+				<real>412696116.68826598</real>
 				<key>Name</key>
 				<string>DNS Switcheroo</string>
 				<key>Triggers</key>
